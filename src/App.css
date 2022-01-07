@@ -24,6 +24,8 @@ body{
   padding: 15px;
   font-weight: bold;
   border: 1px solid #D3D3D3;
+  justify-content: center;
+  text-align: center;
 }
 .description{
   border-bottom: 1px solid #D3D3D3;
@@ -59,9 +61,20 @@ body{
   width: 16px;
   height: auto;
 }
+@media (min-width: 200px) {
+  .time{
+    font-size: 2.5em;
+  }
+  .container{
+    margin: 15px;
+  }
+  .title{
+    font-size: 2em;
+  }
+}
 @media (min-width: 300px) {
   .time{
-    font-size: 4.5em;
+    font-size: 4em;
   }
   .container{
     margin: 15px;

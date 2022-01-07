@@ -29,7 +29,7 @@ function App() {
           Acerte seu relógio com o horário de Brasília, a hora oficial do Brasil
         </p>
         <div className="date">{date}</div>
-        <h2 className="time">{hora}</h2>
+        <div className="time">{hora}</div>
         <p className="content">
           A hora certa é sincronizada automaticamente. Não é necessário
           recarregar a página.
